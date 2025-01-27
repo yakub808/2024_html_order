@@ -1,0 +1,73 @@
+body {
+    background-color: #000000;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    background-color: inherit;
+    margin-top: 400px;
+    font-size: 48px;
+    font-family: 'Courier New', monospace;
+    font-weight: normal;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    background-color: inherit;
+    margin: auto;
+    font-size: 48px;
+    font-family: 'Courier New', monospace;
+    font-weight: normal;
+    color: #fff;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-family: 'Courier New', monospace;
+    font-weight: normal;
+    font-size: 24px;
+    color: #fff;
+}
+
+.top-buttons .btn {
+    font-size: 24px;
+}
+
+.bottom-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Courier New', monospace;
+    font-weight: normal;
+    font-size: 24px;
+    color: #fff;
+}
+
+.bottom-buttons .btn {
+    font-size: 24px;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    font-size: 48px;
+    color: #8B0000;
+}
+
+/* on mouse-over */
+
+
+.btn.index {
+    color: #fff;
+}
